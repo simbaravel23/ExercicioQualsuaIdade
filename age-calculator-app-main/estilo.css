@@ -1,31 +1,49 @@
 body {
-    background: rgb(229, 234, 235);
-    font: normal 20pt Arial;
 
+    font: normal 20pt Arial;
+    background-image: 
 }
 header {
 
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
+    font: normal 20pt Arial;;
 }
 section {
-    
+  
     background: white;
-    border-bottom-right-radius: 20px;
-    padding: 25px;
+    border-bottom-right-radius: 200px;
+    padding: 150px;
     width: 500px;
-    margin: auto;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
-    font-family: ;
-
+    margin: 180px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.363);
+    font-family: poppins;
+   
 }
 
-div {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 footer {
-    color: rgb(247, 237, 237);
+    color: rgb(33, 12, 223);
     text-align: center;
     font-style: italic;
+
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+button {
+
+
+    width: 30px;
+   height: 30px;
+   
+
+}
+
+.resultado {
+    font-size: 60px; 
+  
 
 }
