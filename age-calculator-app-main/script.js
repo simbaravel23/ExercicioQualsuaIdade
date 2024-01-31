@@ -64,9 +64,7 @@ function calcular() {
                y3--;
            }
        
-           result.innerHTML = ` ${y3} years  
-                                ${m3} months
-                                ${d3} days `;
+           result.innerHTML = ` ${y3} years  ${m3} month ${d3} days`;
         }
        
         function getDaysInMonth(year, month) {

@@ -1,7 +1,7 @@
 body {
 
-    font: normal 20pt Arial;
-    background-image: 
+    font: normal 20pt arial;
+    background-image:
 }
 header {
 
@@ -13,12 +13,13 @@ section {
   
     background: white;
     border-bottom-right-radius: 200px;
-    padding: 150px;
-    width: 500px;
-    margin: 180px;
+    padding: 90px;
+    width: 400px;
+    margin: 180px auto;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.363);
     font-family: poppins;
-   
+    position: relative;
+    top: 50 auto
 }
 
 
@@ -27,23 +28,24 @@ footer {
     color: rgb(33, 12, 223);
     text-align: center;
     font-style: italic;
-
+   
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
-button {
-
-
-    width: 30px;
-   height: 30px;
-   
-
+button{
+    color:violet
+    font-size: 10px;
+    float: right;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(196, 127, 196);
+    border-radius: 50px;
 }
 
 .resultado {
-    font-size: 60px; 
+    font-size: 90px; 
   
 
 }
